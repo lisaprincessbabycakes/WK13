@@ -68,7 +68,7 @@ function setup() {
 }
 
 function draw() {
-  background(200,20,67);
+  background(150, 23, 69);
 
   for (let i = 0; i < mShapes.length; i++) {
     let shape = mShapes[i];
@@ -114,3 +114,4 @@ function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
   connectButton.position(width / 2, height / 2);
 }
+
